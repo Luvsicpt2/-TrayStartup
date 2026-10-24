@@ -1,0 +1,13 @@
+# 统一换行符，避免 Windows 上 core.autocrlf 造成的无意义改动
+* text=auto
+
+*.cs    text diff=csharp
+*.ps1   text
+*.md    text
+*.csproj text
+LICENSE text eol=lf
+
+*.png   binary
+*.ico   binary
+*.exe   binary
+*.zip   binary
