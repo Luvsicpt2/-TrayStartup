@@ -2,6 +2,8 @@
 
 一个常驻 Windows 系统托盘的迷你工具，只管理**你手动添加的少数几个软件**是否开机启动（典型 4 个左右）。左键托盘图标弹出面板，每行一个滑动开关，开关直接对应 `HKCU\Software\Microsoft\Windows\CurrentVersion\Run` 里的那一个值。
 
+![界面预览](tools/preview.png)
+
 ## 特性
 
 - 常驻托盘，不占任务栏；单实例运行，重复双击唤起已有面板
