@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'SilentlyContinue'
 
 $cfgPath = Join-Path $env:APPDATA 'TrayStartup\apps.json'
-$outPath = 'E:\Dsh\workspace\TrayStartup\tools\startup-audit.txt'
+$outPath = Join-Path $PSScriptRoot 'startup-audit.txt'
 $lines = New-Object System.Collections.Generic.List[string]
 
 if (-not (Test-Path $cfgPath)) {
